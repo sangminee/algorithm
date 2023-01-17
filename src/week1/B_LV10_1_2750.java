@@ -6,27 +6,22 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class B_2_2587 {
+public class B_LV10_1_2750 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
 
+        int[] arr = new int[n];
         StringTokenizer st;
-
-        int[] arr = new int[5];
-        int sum = 0;
-        for(int i=0; i<5; i++){
+        for(int i=0; i<n; i++){
             st = new StringTokenizer(br.readLine());
             arr[i] = Integer.parseInt(st.nextToken());
-            sum += arr[i];
         }
 
         Arrays.sort(arr);
-
-        // 평균
-        System.out.println(sum/5);
-
-        // 중앙값
-        System.out.println(arr[2]);
+        for(int i : arr){
+            System.out.println(i);
+        }
     }
 }

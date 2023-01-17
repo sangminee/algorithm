@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class B_6_2108 {
+public class B_LV10_6_2108 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,12 +21,12 @@ public class B_6_2108 {
         int[] arr = new int[n];
         for(int i=0 ;i<n; i++){
             arr[i] = Integer.parseInt(br.readLine());
-            sum += arr[i];
-
-            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
-            if(!(map.get(arr[i]) > 1)){
-
-            }
+//            sum += arr[i];
+//
+//            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+//            if(!(map.get(arr[i]) > 1)){
+//
+//            }
         }
 
         Arrays.sort(arr);
@@ -39,8 +39,13 @@ public class B_6_2108 {
         // 최빈 값
 
 
+
+
+
         // 범위
-        sb.append(arr[arr.length/2] - arr[0]).append("\n");
+        sb.append(arr[arr.length-1] - arr[0]).append("\n");
+
+        System.out.println(sb);
 
     }
 }
