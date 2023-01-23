@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class B_LV10_7_1427 {
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[] arr = br.readLine().toCharArray();
