@@ -1,4 +1,4 @@
-package week2;
+package B_LV16;
 
 import java.io.BufferedReader;
 import java.io.IOException;

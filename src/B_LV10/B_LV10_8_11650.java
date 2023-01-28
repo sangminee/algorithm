@@ -1,10 +1,9 @@
-package week1;
+package B_LV10;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class B_LV10_8_11650 {

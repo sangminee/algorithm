@@ -1,13 +1,13 @@
-package week2;
+package B_LV16;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class B_LV16_4_15652 {
+public class B_LV16_2_15650 {
     static int n, m;
-    static int[] result;
+    static int[] result = new int[8];
     static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) throws IOException {
@@ -16,22 +16,21 @@ public class B_LV16_4_15652 {
 
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        result = new int[n];
 
         dfs(0, 1);
         System.out.println(sb);
     }
 
-    private static void dfs(int index, int at) {
-        if(index >= m){
-            for(int i=0; i<m; i++){
-                sb.append(result[i]+" ");
+    private static void dfs(int index, int start) {  // start : 결과 시작 값
+        if (index >= m) {
+            for (int i = 0; i < m; i++) {
+                sb.append(result[i]).append(" ");
             }
             sb.append("\n");
-        }else{
-            for(int i=at; i<=n; i++){
+        } else {
+            for (int i = start; i <= n; i++) {
                 result[index] = i;
-                dfs(index+1, i);
+                dfs(index + 1, i + 1);
             }
         }
     }
