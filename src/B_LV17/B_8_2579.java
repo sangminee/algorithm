@@ -33,6 +33,8 @@ public class B_8_2579 { // 계단 오르기 (2579)
 
         // bottom - up
         for(int i=4; i<=n; i++){
+            // 마지막 도착 계단은 반드시 밟아야 함
+            // 연속된 세 개의 계단을 모두 밟아서는 안됨
             result[i] = arr[i] + Math.max(arr[i-1]+result[i-3], result[i-2]);
         }
         System.out.println(result[n]);
