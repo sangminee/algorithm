@@ -11,7 +11,7 @@ public class Main_2075_N번째큰수 {
 
        StringTokenizer st;
 
-        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder()); // 내림차순 정렬
         for(int i=0; i<N; i++){
             st = new StringTokenizer(br.readLine());
             while(st.hasMoreTokens()){

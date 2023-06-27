@@ -17,7 +17,7 @@ public class Main_11279_최대힙 { // https://www.acmicpc.net/problem/11279 (�
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
 
         while(N-->0){
-            int input = Integer.parseInt(br.readLine());
+            int input = Integer.parseInt(br.readLine()); // 입력 값
             if(input == 0){
                 if(priorityQueue.isEmpty()) sb.append("0").append("\n");
                 else{
@@ -30,31 +30,4 @@ public class Main_11279_최대힙 { // https://www.acmicpc.net/problem/11279 (�
         System.out.println(sb);
     }
 
-    static class Node{
-        int value;
-        Node nextNode;
-
-        public Node(int value){
-            this.value = value;
-            this.nextNode = null;
-        }
-
-        public int getValue(){
-            return this.value;
-        }
-
-        public void setNextNode(Node node){
-            this.nextNode = node;
-        }
-    }
-
-    class Queue{
-        int first, last;
-
-
-        public void get(int value){
-
-        }
-
-    }
 }
