@@ -1,4 +1,4 @@
-package week2;
+package B_LV16;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,6 +11,10 @@ public class B_LV16_7_14888 {
 
     // 숫자가 중복될 경우 어떻게 ?
     // 연산자의 조합 어떻게 찾지 ? -> 해결
+
+    static int MIN = Integer.MAX_VALUE;
+    static int MAX = Integer.MIN_VALUE;
+
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -33,7 +37,7 @@ public class B_LV16_7_14888 {
 
         // 덧셈 :0, 뺄셈 : 1, 곱셈 : 2, 나눗셈: 3
 
-        // 모든 숫자 조합 찾기
+        // 모든 숫자 조합 찾기  -> 찾을 필요 없음
         result1 = new int[100000][n];
         numDFS(0, 0);
 
