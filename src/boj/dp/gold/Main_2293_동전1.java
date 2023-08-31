@@ -3,8 +3,6 @@ package boj.dp.gold;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.StringTokenizer;
 
 public class Main_2293_동전1 { // https://www.acmicpc.net/problem/2293(골드5)
