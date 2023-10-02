@@ -27,12 +27,6 @@ public class Main_2056_작업 { // https://www.acmicpc.net/problem/2056
     public static void main(String[] args) throws IOException {
         int n = Integer.parseInt(br.readLine());
 
-        // 모든 작업을 완료하기 위해 필요한 최소 시간을 구하기
-        ArrayList<Integer>[] arr = new ArrayList[n];
-        for(int i=0; i<n; i++){
-            arr[i] = new ArrayList<>();
-        }
-
         int[] dp = new int[n+1]; // 작업을 완료하기 위한 최소 선행
         dp[0] = 0;
         int max = -1;
