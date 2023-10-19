@@ -1,4 +1,4 @@
-package inflearn.bruteForce.repeated;
+package inflearn.bruteForce;
 
 import java.io.BufferedReader;
 import java.io.IOException;
