@@ -1,4 +1,4 @@
-package inflearn.optimization;
+package 인프런.최적화;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,7 +22,7 @@ import java.util.*;
  * ---> 어떤 수를 가져와도 왼쪽 편은 루트 까지만 계산함
  *
  * */
-public class Main_1978_소수찾기 { // https://www.acmicpc.net/problem/1978
+public class BOJ_1978_소수찾기 { // https://www.acmicpc.net/problem/1978
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

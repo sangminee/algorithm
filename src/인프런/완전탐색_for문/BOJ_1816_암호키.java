@@ -1,4 +1,4 @@
-package inflearn.bruteForce;
+package 인프런.완전탐색_for문;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * - 1을 제외한 약수
  *
  * */
-public class Main_1816_암호키 { // https://www.acmicpc.net/problem/1816
+public class BOJ_1816_암호키 { // https://www.acmicpc.net/problem/1816
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

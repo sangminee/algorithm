@@ -1,4 +1,4 @@
-package inflearn.bruteForce;
+package 인프런.완전탐색_for문;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,7 +31,7 @@ import java.util.StringTokenizer;
  * 3번째 위치에 올 수 있는 값 : 1,2,3
  * -> 2 가지의 경우의 수
  * */
-public class Main_2503_숫자야구 { // https://www.acmicpc.net/problem/2503
+public class BOJ_2503_숫자야구 { // https://www.acmicpc.net/problem/2503
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

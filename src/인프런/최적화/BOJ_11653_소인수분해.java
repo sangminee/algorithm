@@ -1,4 +1,4 @@
-package inflearn.optimization;
+package 인프런.최적화;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * [약수 구하기 문제]
  * 소인수분해 : 1보다 큰 자연수를 소인수들만의 곱으로 나타낸 것
  * */
-public class Main_11653_소인수분해 {
+public class BOJ_11653_소인수분해 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();

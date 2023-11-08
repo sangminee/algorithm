@@ -1,11 +1,11 @@
-package inflearn.memory;
+package 인프런.기억;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_1912_연속합 { // https://www.acmicpc.net/problem/1912
+public class BOJ_1912_연속합 { // https://www.acmicpc.net/problem/1912
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

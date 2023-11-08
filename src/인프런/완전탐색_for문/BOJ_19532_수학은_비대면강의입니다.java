@@ -1,4 +1,4 @@
-package inflearn.bruteForce;
+package 인프런.완전탐색_for문;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  * 1초 = 1억번의 연산 가능
  *
  * */
-public class Main_19532_수학은_비대면강의입니다 {
+public class BOJ_19532_수학은_비대면강의입니다 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
 

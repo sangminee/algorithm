@@ -1,4 +1,4 @@
-package inflearn.bruteForce;
+package 인프런.완전탐색_for문;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  * 4. A는 홀수이면 안됨
  *
  * */
-public class Main_14568_2017연세대학교_프로그래밍_경시대회 { // https://www.acmicpc.net/problem/14568
+public class BOJ_14568_2017연세대학교_프로그래밍_경시대회 { // https://www.acmicpc.net/problem/14568
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {

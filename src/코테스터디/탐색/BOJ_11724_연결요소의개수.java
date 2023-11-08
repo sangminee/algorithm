@@ -10,7 +10,7 @@ import java.util.*;
  *
  * result : 연결 요소의 개수
  * */
-public class Main_11724_연결요소의개수 { // https://www.acmicpc.net/problem/11724
+public class BOJ_11724_연결요소의개수 { // https://www.acmicpc.net/problem/11724
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
