@@ -3,7 +3,7 @@ package 백준.탐색;
 import java.io.*;
 import java.util.*;
 
-public class BOJ_1278_미로탐색 { // https://www.acmicpc.net/problem/2178
+public class B1278_미로탐색 { // https://www.acmicpc.net/problem/2178
     static BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
     static int N,M;
     static int[][] graph;
