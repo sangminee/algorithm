@@ -1,4 +1,4 @@
-package 백준.BFS;
+package 백준.DFS_BFS;
 
 import java.io.*;
 import java.util.*;

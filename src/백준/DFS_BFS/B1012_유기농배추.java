@@ -1,4 +1,4 @@
-package 백준.DFS;
+package 백준.DFS_BFS;
 
 import java.io.BufferedReader;
 import java.io.IOException;
