@@ -1,4 +1,4 @@
-package 코테스터디.dfs_bfs;
+package 백준.DFS_BFS;
 
 import java.util.*;
 import java.io.*;
