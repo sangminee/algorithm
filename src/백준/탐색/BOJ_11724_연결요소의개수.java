@@ -1,4 +1,4 @@
-package 코테스터디.탐색;
+package 백준.탐색;
 
 import java.io.*;
 import java.util.*;
