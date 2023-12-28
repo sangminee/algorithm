@@ -7,7 +7,7 @@ import java.util.*;
  * - A번째 도시에서 B도시 까지 가는데 드는 버스의 최소 비용
  * - 방향이 정해짐
  * */
-public class 이상민_최소비용구하기 {  //https://www.acmicpc.net/problem/1916
+public class B1916_최소비용구하기 {  //https://www.acmicpc.net/problem/1916
 
     static class Bus{
         int end;

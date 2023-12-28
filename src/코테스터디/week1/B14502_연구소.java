@@ -23,7 +23,7 @@ import java.util.StringTokenizer;
  * - 0 일 때 벽을 세울 수 있음
  *
  * */
-public class 이상민_연구소 { // https://www.acmicpc.net/problem/14502
+public class B14502_연구소 { // https://www.acmicpc.net/problem/14502
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
 

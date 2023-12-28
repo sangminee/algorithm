@@ -1,7 +1,6 @@
 package 코테스터디.week4;
 
 import java.io.*;
-import java.util.Objects;
 
 /**
  * [트리]
@@ -30,7 +29,7 @@ import java.util.Objects;
  * - 전회 순회한 결과 주어졌을 때 , 이 트리를 후위 순회한 결과 출력
  *
  * */
-public class 이상민_이진검색트리 { // https://www.acmicpc.net/problem/5639
+public class B5639_이진검색트리 { // https://www.acmicpc.net/problem/5639
 
     static class Node{
         int value;

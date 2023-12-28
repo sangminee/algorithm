@@ -21,7 +21,7 @@ import java.util.StringTokenizer;
  *
  * - 불이 한번에 이동이 되어야 함
  * */
-public class 이상민_불 { // https://www.acmicpc.net/problem/5427
+public class B5427_불 { // https://www.acmicpc.net/problem/5427
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

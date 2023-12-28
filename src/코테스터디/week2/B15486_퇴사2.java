@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * dp[i] : i 일 때 , 이익의 수
  *
  */
-public class 이상민_퇴사2 { // https://www.acmicpc.net/problem/15486
+public class B15486_퇴사2 { // https://www.acmicpc.net/problem/15486
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int n;

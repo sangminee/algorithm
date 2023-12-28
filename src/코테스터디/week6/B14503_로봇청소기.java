@@ -3,7 +3,7 @@ package 코테스터디.week6;
 import java.io.*;
 import java.util.*;
 
-public class 이상민_로봇청소기 { // https://www.acmicpc.net/problem/14503
+public class B14503_로봇청소기 { // https://www.acmicpc.net/problem/14503
 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

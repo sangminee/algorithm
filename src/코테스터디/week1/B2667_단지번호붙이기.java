@@ -15,7 +15,7 @@ import java.util.*;
  * int count = 0;
  *
  */
-public class 이상민_단지번호붙이기 {
+public class B2667_단지번호붙이기 { // https://www.acmicpc.net/problem/2667
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int[][] arr;

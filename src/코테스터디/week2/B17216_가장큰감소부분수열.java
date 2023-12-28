@@ -18,7 +18,7 @@ import java.util.*;
  * 1, 100 -> 100
  *
  * */
-public class 이상민_가장큰감소부분수열 { // https://www.acmicpc.net/problem/17216
+public class B17216_가장큰감소부분수열 { // https://www.acmicpc.net/problem/17216
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

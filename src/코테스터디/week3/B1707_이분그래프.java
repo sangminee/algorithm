@@ -3,7 +3,7 @@ package 코테스터디.week3;
 import java.io.*;
 import java.util.*;
 
-public class 이상민_이분그래프 { // https://www.acmicpc.net/problem/1707
+public class B1707_이분그래프 { // https://www.acmicpc.net/problem/1707
 
     static ArrayList<Integer>[] adj;
     public static void main(String[] args) throws IOException{

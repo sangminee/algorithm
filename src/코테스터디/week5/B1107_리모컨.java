@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 이상민_리모컨 {  // https://www.acmicpc.net/problem/1107
+public class B1107_리모컨 {  // https://www.acmicpc.net/problem/1107
 
     static boolean[] broken;
     static int target, brokenButton;

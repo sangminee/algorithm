@@ -14,7 +14,7 @@ import java.util.*;
  * - queue (FIFO) -> 선입선출
  *
  * */
-public class 이상민_DFS와BFS {
+public class B1260_DFS와BFS { // https://www.acmicpc.net/problem/1260
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int n, m, v;

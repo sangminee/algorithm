@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * 2 : 목표 지점
  *
  * */
-public class 이상민_쉬운최단거리 { // https://www.acmicpc.net/problem/14940
+public class B14940_쉬운최단거리 { // https://www.acmicpc.net/problem/14940
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

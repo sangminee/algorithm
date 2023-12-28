@@ -9,7 +9,7 @@ import java.util.*;
  * 출력 : 한 줄에 배낭에 넣을 수 있는 물건 가치합의 최대값
  *  무게 낮은 순 -> 가치가 높은 순
  * */
-public class 이상민_평범한배낭 { // https://www.acmicpc.net/problem/12865
+public class B12865_평범한배낭 { // https://www.acmicpc.net/problem/12865
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

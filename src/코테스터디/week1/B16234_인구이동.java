@@ -13,7 +13,7 @@ import java.util.*;
  *
  * -- 인구 이동이 몇일 동안 이루어 졌는지 출력
  * */
-public class 이상민_인구이동 { // https://www.acmicpc.net/problem/16234
+public class B16234_인구이동 { // https://www.acmicpc.net/problem/16234
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;

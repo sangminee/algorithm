@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class 이상민_틱택토 { // https://www.acmicpc.net/problem/7682
+public class B7682_틱택토 { // https://www.acmicpc.net/problem/7682
 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

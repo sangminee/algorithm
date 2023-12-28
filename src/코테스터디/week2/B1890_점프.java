@@ -22,7 +22,7 @@ import java.util.StringTokenizer;
  * - (n-1, n-1)에 도착하는 경우 graph[n-1][n-1] 값에 +1를 함
  * - 출력 : result[n-1][n-1]
  * */
-public class 이상민_점프 { // https://www.acmicpc.net/problem/1890
+public class B1890_점프 { // https://www.acmicpc.net/problem/1890
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
     static int[][] graph;

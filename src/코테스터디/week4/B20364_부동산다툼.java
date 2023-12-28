@@ -3,7 +3,7 @@ package 코테스터디.week4;
 import java.io.*;
 import java.util.*;
 
-public class 이상민_부동산다툼 { // https://www.acmicpc.net/problem/20364
+public class B20364_부동산다툼 { // https://www.acmicpc.net/problem/20364
 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
