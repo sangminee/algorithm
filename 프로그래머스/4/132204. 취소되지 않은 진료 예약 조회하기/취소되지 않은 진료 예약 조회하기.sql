@@ -1,23 +1,18 @@
 -- 코드를 입력하세요
--- PATIENT : 환자
--- DOCTOR 
--- APPOINTMENT : 진료 예약목록 
 
+-- 취소 되지 않은 진료 
 
--- 1) 
+-- APPOINTMENT : 진료예약번호(APNT_NO), 진료예약일시(APNT_YMD)
+-- PATIENT : 환자이름(PT_NAME), 환자번호(PT_NO)
+-- DOCTOR : 진료과코드(MCDP_CD), 의사이름(DR_NAME)
 
-
-select a.APNT_NO
-      ,p.PT_NAME
-      ,p.PT_NO
-      ,d.MCDP_CD
-      ,d.DR_NAME
-      ,APNT_YMD
-from (SELECT *
-      from APPOINTMENT
-      where to_char(APNT_YMD, 'YYYYMMDD') = '20220413'
-      and APNT_CNCL_YN = 'N') a
-left join PATIENT p on a.PT_NO = p.PT_NO
-left join DOCTOR d on a.MDDR_ID = d.DR_ID
-order by APNT_YMD; 
-
+SELECT ap.APNT_NO, p.PT_NAME, p.PT_NO,  d.MCDP_CD, d.DR_NAME, ap.APNT_YMD
+FROM APPOINTMENT ap 
+    LEFT JOIN DOCTOR d 
+    ON d.DR_ID = ap.MDDR_ID 
+    LEFT JOIN PATIENT p 
+    ON p.PT_NO = ap.PT_NO
+WHERE to_char(ap.APNT_YMD, 'YYYYMMDD') = '20220413' 
+      AND APNT_CNCL_YN = 'N'
+      AND ap.MCDP_CD = 'CS'
+ORDER BY ap.APNT_YMD;
