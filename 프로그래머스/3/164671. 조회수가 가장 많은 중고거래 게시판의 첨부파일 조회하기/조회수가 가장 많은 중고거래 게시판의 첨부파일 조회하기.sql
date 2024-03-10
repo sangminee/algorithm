@@ -1,14 +1,7 @@
 -- 코드를 입력하세요
-
--- USED_GOODS_BOARD : 중고거래 게시판 정보 
--- USED_GOODS_FILE : 중고거래 게시판 첨부파일 정보 (fk : BOARD_ID)
-
--- 1) 게시판에서 조회수가 가장 높은 게시판 찾기 
--- 2) /home/grep/src/  -> 추가 
-
-select ('/home/grep/src/' || b.BOARD_ID || '/' || f.FILE_ID || f.FILE_NAME||f.FILE_EXT) as FILE_PATH
-from USED_GOODS_BOARD b
-left join USED_GOODS_FILE f 
-on b.BOARD_ID = f.BOARD_ID
-where VIEWS = (select max(VIEWS) from USED_GOODS_BOARD)
-order by FILE_ID desc;
+SELECT ('/home/grep/src/' || ub.BOARD_ID || '/' || FILE_ID || FILE_NAME || FILE_EXT) as FILE_PATH
+FROM USED_GOODS_BOARD ub 
+LEFT JOIN USED_GOODS_FILE f 
+ON ub.BOARD_ID = f.BOARD_ID
+WHERE VIEWS = (SELECT MAX(VIEWS) FROM USED_GOODS_BOARD)
+ORDER BY FILE_ID DESC; 
